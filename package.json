@@ -1,0 +1,32 @@
+{
+  "name": "hw-js_5.4",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/*.html",
+    "build": "parcel build src/*.html --no-cache --public-url /HW-js_5.4/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NastifyMe/HW-js_5.4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NastifyMe/HW-js_5.4/issues"
+  },
+  "homepage": "https://github.com/NastifyMe/HW-js_5.4#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "chart.js": "^4.5.1",
+    "pnotify": "^5.2.0"
+  }
+}
